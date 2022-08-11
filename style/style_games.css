@@ -1,0 +1,292 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Okładka gry po wejściu na dany produkt */
+.game_inside{
+	height: 40%;
+}
+
+/* Div okładki */
+.left_g{
+	width: 22%;
+	position: relative;
+	float: left;
+}
+
+/* Div Nazwa Gry */
+.central_g{
+	width: 38%;
+	position: relative;
+	float: left;
+}
+
+/* Div Platforma */
+.right_g{
+	width: 18%;
+	position: relative;
+	float: left;
+}
+
+/* Div Dostępność i cena */
+.right_c_g{
+	width: 18%;
+	position: relative;
+	float: left;
+}
+
+/* Div opisu */
+.bottom_g{
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+.more_top{
+	width:	100%;
+	height: auto;
+	float: left;
+	position: relative;
+	margin-top: 20%;
+	text-align: center;
+}
+
+/* Div więcej informacji */
+.more_left, .more_right{
+	width:	50%;
+	height: auto;
+	float: left;
+	position: relative;
+	margin-bottom: 10%;
+}
+
+/* Wielkość obrazka pegi */
+.pegi{
+	width: 10%;
+}
+
+/* Cena gry bez rabatów*/
+#game_cost{
+	font-size: 170%;
+	color: green;
+}
+
+/* Gdy gra jest dostępna x>=1 */
+#game_is_yes{
+	color: green;
+}
+
+
+
+.btn_buy{
+	font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 13px;
+    letter-spacing: 1px;
+    background-color: #00a2e8;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #00a2e8;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px 33px 15px 33px;
+	color:white;
+	
+	-webkit-transition: background-color 0.5s linear, color 0.5s linear;
+	-moz-transition: background-color 0.5s linear, color 0.5s linear;
+	-o-transition:background-color 0.5s linear, color 0.5s linear;
+	transition: background-color 0.5s linear, color 0.5s linear;
+	background-color: #00a2e8;
+	
+}
+
+.btn_buy:hover{
+	font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 13px;
+    letter-spacing: 1px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #ba1d63;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px 33px 15px 33px;
+	color:white;
+
+	-webkit-transition: background-color 0.5s linear, color 0.5s linear;
+	-moz-transition: background-color 0.5s linear, color 0.5s linear;
+	-o-transition:background-color 0.5s linear, color 0.5s linear;
+	transition: background-color 0.5s linear, color 0.5s linear;
+	background-color: #ba1d63;
+}
+
+
+
+/* PRODUKTY */
+
+.top_games, .all_games, .game_filter{
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+.top_games_visual{
+	height: 30%;
+	text-align: center;
+	padding: 3px 1%;
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.games_visual{
+	height: 22%;
+	text-align: center;
+	padding: 3px 1%;
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_filter{
+	width: 100%;
+	text-align:right;
+	background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	color:white;
+	height:22%;
+	position:relative;
+	z-index:99;
+	margin-top:0%;
+	margin-bottom:1%;
+	transition: height 4s;
+}
+
+.search{
+	padding-top:9.1%;
+	padding-right:10%;
+	padding-left:10%;
+	
+}
+
+.browser{
+	z-index:99999;
+	margin:0;
+	padding:0;
+	transition: height 4s;
+}
+.c3 {
+  height:100%;
+}
+
+.c2 {
+  height:22%;
+}
+
+.anim {
+	opacity: 1;
+	animation-name: fadeInAnim;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+}
+
+@keyframes fadeInAnim {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+form.search_form input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+form.search_form button {
+	width: 5%;
+	padding: 6.5px;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+	  
+	-webkit-transition: background-color 0.5s linear, color 0.5s linear;
+	-moz-transition: background-color 0.5s linear, color 0.5s linear;
+	-o-transition:background-color 0.5s linear, color 0.5s linear;
+	transition: background-color 0.5s linear, color 0.5s linear;
+	background-color: #2196F3;
+}
+
+form.search_form button:hover {
+ 
+	-webkit-transition: background-color 0.5s linear, color 0.5s linear;
+	-moz-transition: background-color 0.5s linear, color 0.5s linear;
+	-o-transition:background-color 0.5s linear, color 0.5s linear;
+	transition: background-color 0.5s linear, color 0.5s linear;
+	background-color: #0b7dda;
+}
+
+form.search_form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.arrow{
+	margin-top:35%;
+	opacity: 1;
+	animation-name: fadeInAnim;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 8s;
+}
+
+@keyframes fadeInArrow {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.c4 {
+	opacity: 0;
+	animation-name: fadeOutArrow;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeOutArrow {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.top input[type="submit"] {
+    color: green;
+	text-shadow: 1px 1px black;
+    font-size: 0.78em;
+    font-weight:bold;
+    padding-top: 17%;
+}
+
+.rest input[type="submit"] {
+    color: green;
+	text-shadow: 1px 1px black;
+    font-size: 0.54em;
+    font-weight:bold;
+    padding-top: 12%;
+}
