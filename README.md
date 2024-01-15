@@ -538,7 +538,4 @@ Użytkownik:
 Login: kk123
 Hasło: kk123
 
-
-[Przydatny link przy tworzeniu plików *.md ](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 [logo]: https://gallery.dpcdn.pl/imgc/UGC/34567/g_-_960x640_-_s_x20131110194052_0.jpg "Strona główna"
