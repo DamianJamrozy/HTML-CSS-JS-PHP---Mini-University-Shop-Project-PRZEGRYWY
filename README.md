@@ -35,7 +35,7 @@
    <details>
        <summary>Ekran główny (Home) </summary>
 	
-![alt text](https://github.com/DamianJamrozy/HTML-CSS-JS-PHP---Mini-University-Shop-Project-PRZEGRYWY/tree/main/img-readme/Home1.PNG "Home Page")
+![alt text](https://github.com/DamianJamrozy/HTML-CSS-JS-PHP---Mini-University-Shop-Project-PRZEGRYWY/tree/main/img-readme/Home1.PNG)
 
            Przedstawiono stronę główną aplikacji (index.php).
 	   
